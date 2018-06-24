@@ -5,7 +5,7 @@
 1. Use keyword arguments to define an initialize method.
 2. Use mass assignment to metaprogram an initialize method. 
 
-## Instructions
+## Instructlions
 
 * Create a Person class that accepts a hash upon initialization. The keys of the hash should conform to the attributes below: 
 
