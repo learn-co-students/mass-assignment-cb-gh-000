@@ -5,6 +5,7 @@ class Person
 
   def initialize(arguments) #arguments is a hash
     arguments.each do |variable, value|
+      puts "self: #{self}"
       self.send("#{variable}=", value)
     end
   end
